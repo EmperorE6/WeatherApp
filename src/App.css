@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body{
+  background-image: url(https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg);
+  background-repeat: no-repeat;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.vnes{
+text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.vnes input {
+  width: 400px;
+height: 40px;
+border-radius: 12px;
+margin-top:80px;
+margin-bottom: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.info{
+  width:450px;
+  height: 380px;
+  background-color: rgb(197, 199, 197);
+  box-shadow: 0px 15px 20px;
+  margin:0 auto;
+  display: block;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 15px;
+  border-radius: 12px;
+  opacity: 0.8;
 }
-
-.App-link {
-  color: #61dafb;
+.slikata  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slikata img {
+  height: 80px;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+.opis h3{
+margin-top:25px;
+text-align: center;
+font-size:22px;
+}
+span{
+  position: absolute;
+  font-size:16px;
+  color:rgb(190, 77, 77);
+  margin-left:5px;
 }
